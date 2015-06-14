@@ -1,5 +1,5 @@
 # mental_health
-Use this code to explore your own personal writing describing experiences.
+Use this code to explore your own personal writing. I think it's useful to explore perspective from multiple angles. Figuring out the frequency through the word cloud tells a lot about what you're thinking when you are writing something that is base don experience and emotions.
 
 ##prerequisites
 Use pip to install the matplotlib module package.
