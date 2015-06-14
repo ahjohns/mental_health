@@ -1,4 +1,4 @@
-import urllib2, json
+import urllib2, json, re, string 
 
 def main():
 
@@ -10,34 +10,21 @@ def main():
 
 #words list
     experiencelist = []
+#take into account words having little emphasis in context
+    articles = ['a', 'the', 'and', 'an', 'that', 'then', 'than', 'is', 'was', 'to', 'in', 'or', 'of', 'as', 'on', 'but', 'for', "it's",'any']
     
     words = experience.split()
-    if words == 'a':
-        words == null
-    if words == 'the':
-        words == null
-    if words == 'and':
-        words == null
+    for a in words:
+        a = a.lower()
+        a = a.replace(",", "").replace(".", "").replace("(", "").replace(")", "")
+        if a not in articles:
+            experiencelist.append(a)
     
-    print words
-    #for ex in experience:
-        #ex = ex.split('\n')
-        #print ex
-
-#for each json dictionary key value pair, grab first index of name, append to first name list
-#    for key, value in response_string.items():
- #       if key == 'data':
-  #          for member in value:
-   #             for k, v in member.items():
-    #                if k == 'name':
-     #                   v = v.split()
-      #                  firstnamelist.append(v[0])
-#iterate through first name, convert to string, write to file
-    #for item in firstnamelist:
-     #   item = unicode(item)
-      #  item = str(item)
-       # firstnames.write(item + '\n')
-
+    print experiencelist
+    for item in experiencelist:
+        #item = unicode(item)
+        item = str(item)
+        sentiment.write(item + '\n')
 
 if __name__ == "__main__":
     main()
