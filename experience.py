@@ -3,14 +3,14 @@ import urllib2, json, re, string
 def main():
 
 
-#open and read txt file
+#open and read txt file - note, change the path where appropriate
     experience = open('experience.txt', 'rU').read()
 #open file to write out
     sentiment = open('mentalhealth.txt', 'w')
 
 #words list
     experiencelist = []
-#take into account words having little emphasis in context
+#take into account words having little emphasis in context, add/delete any words you feel appropriate for your own writing
     articles = ['a', 'the', 'and', 'an', 'that', 'then', 'than', 'is', 'was', 'to', 'in', 'or', 'of', 'as', 'on', 'but', 'for', "it's",'any']
     
     words = experience.split()
