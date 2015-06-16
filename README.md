@@ -16,17 +16,20 @@ Beware to take note of special note about file-names for non-ubuntu environments
 ```
 git clone https://github.com/ahjohns/mental_health
 cd mental_health
+cd files
 ```
-Whatever personal writing you want to explore, it needs to be in a txt file. You need to edit the .py files where appropriate.
+Whatever personal writing you want to explore, it needs to be in a txt file. Easy way would be to edit experience.txt. You need to edit the .py files where appropriate.
 
 ##Begin by running the first program
 Ya'll need to run all three .py scripts to get the right data.
 
 ```
 python experience.py
+python mentalhealth.py
+python mentalhealthcloud.py
 ```
 
-If you run into problems with required modules when you making the cloud, for instance, the PIL module, check the path relative to the wordcloud package. They must be in the same site-package folder. Example of how to check the path:
+If you run into problems with required modules when you're making the cloud, check the path relative to the wordcloud package. They must be in the same site-package folder. Example of how to check the path in your system:
 ```
 import wordcloud
 wordcloud.__path__
