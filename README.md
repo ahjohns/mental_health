@@ -7,10 +7,16 @@ If you are using an OSX environment, I'd recommend installing Homebrew first, fo
 ```
 brew install python
 sudo pip install matplotlib
+sudo pip install pillow
 ```
 To get the word cloud package up and running, follow the command line instructions here: https://github.com/amueller/word_cloud
 Beware to take note of special note about file-names for non-ubuntu environments.
 
+If you run into problems with required modules, for instance PIL, check the path relative to wordcloud. They must be in the same site-package folder. Example of how to check the path:
+```
+import wordcloud
+wordcloud.__path__
+```
 ##Get your repository set up
 ```
 git clone https://github.com/ahjohns/mental_health
