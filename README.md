@@ -10,7 +10,7 @@ sudo pip install matplotlib
 sudo pip install pillow
 ```
 To get the word cloud package up and running, follow the command line instructions here: https://github.com/amueller/word_cloud
-Beware to take not of necessary FONT-PATH changes for non-ubuntu environments.
+Beware to take note of necessary FONT-PATH changes for non-ubuntu environments.
 
 ##Get your repository set up
 ```
