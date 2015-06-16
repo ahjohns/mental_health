@@ -7,7 +7,7 @@ from wordcloud import WordCloud
 direct = path.dirname(__file__)
 sentiment = open(path.join(direct, 'mentalhealth.txt')).read()
 #use pytagcloud module to create tags based on name counts, create image. 
-wordcloud = WordCloud.generate(sentiment)
+wordcloud = WordCloud().generate(sentiment)
 # Open a plot of the generated image.
 plt.imshow(wordcloud)
 plt.axis("off")

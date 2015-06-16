@@ -1,4 +1,5 @@
 all; 7
+that\xe2\x80\x8a\xe2\x80\x94\xe2\x80\x8ato; 1
 suicidal; 1
 consider; 1
 caused; 4
@@ -30,6 +31,7 @@ risk; 1
 outside; 2
 very; 13
 regional; 1
+\xe2\x80\x9cworrier\xe2\x80\x9d; 1
 every; 3
 awful; 1
 treating; 1
@@ -178,7 +180,7 @@ option; 1
 toxic; 1
 struggled; 1
 panic; 1
-person's; 2
+person\xe2\x80\x99s; 2
 tried; 2
 may; 2
 after; 4
@@ -304,7 +306,7 @@ success; 2
 keep; 1
 thing; 3
 place; 2
-one's; 1
+one\xe2\x80\x99s; 1
 onto; 1
 think; 4
 first; 8
@@ -313,6 +315,7 @@ major; 1
 initial; 1
 feel; 2
 one; 7
+\xef\xbb\xbfin; 1
 philosophical; 1
 done; 4
 escalations; 1
@@ -420,7 +423,7 @@ reflecting; 1
 gain; 2
 impression; 1
 subtly; 1
-didn't; 2
+didn\xe2\x80\x99t; 2
 show; 1
 precarious; 1
 discovered; 1
@@ -461,7 +464,7 @@ frightening; 1
 untreated; 1
 resolve; 1
 course; 2
-people's; 1
+people\xe2\x80\x99s; 1
 misperceptions; 1
 calling; 1
 bad; 1
@@ -497,7 +500,7 @@ we; 8
 creating; 1
 opening; 1
 however; 2
-hadn't; 1
+hadn\xe2\x80\x99t; 1
 succeed; 1
 article; 2
 come; 1
@@ -588,7 +591,7 @@ began; 1
 same; 4
 manifestations; 1
 unfortunate; 2
-i; 6
+i\xe2\x80\x99ve; 6
 proved; 1
 harming; 1
 difficult; 2
@@ -612,12 +615,12 @@ severe; 2
 without; 1
 position; 3
 left; 1
-i; 5
+i\xe2\x80\x99m; 5
 summer; 1
 mind; 2
 just; 3
 being; 10
-i; 3
+i\xe2\x80\x99d; 3
 actions; 3
 openly; 2
 human; 1
@@ -629,7 +632,7 @@ distress; 5
 flood; 1
 thinking; 2
 had; 22
-it; 6
+it\xe2\x80\x99s; 6
 passive; 1
 parents; 1
 treatment; 2
