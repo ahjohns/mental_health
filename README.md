@@ -12,11 +12,6 @@ sudo pip install pillow
 To get the word cloud package up and running, follow the command line instructions here: https://github.com/amueller/word_cloud
 Beware to take note of special note about file-names for non-ubuntu environments.
 
-If you run into problems with required modules, for instance PIL, check the path relative to wordcloud. They must be in the same site-package folder. Example of how to check the path:
-```
-import wordcloud
-wordcloud.__path__
-```
 ##Get your repository set up
 ```
 git clone https://github.com/ahjohns/mental_health
@@ -29,4 +24,10 @@ Ya'll need to run all three .py scripts to get the right data.
 
 ```
 python experience.py
+```
+
+If you run into problems with required modules when you making the cloud, for instance, the PIL module, check the path relative to the wordcloud package. They must be in the same site-package folder. Example of how to check the path:
+```
+import wordcloud
+wordcloud.__path__
 ```
